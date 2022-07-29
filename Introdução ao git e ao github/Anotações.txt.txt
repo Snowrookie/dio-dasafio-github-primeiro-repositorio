@@ -1,1 +1,12 @@
 git é uma ferramenta de versionamento de codigo
+
+O versionamento de código é uma maneira de gerenciar as mudanças feitas no projeto ao longo do desenvolvimento. 
+Ele facilita na hora de corrigir erros causados por novas inserções, compartilhar códigos com outros colegas de equipe e
+proteger o código de degradação com o tempo, devido a erros.
+
+Hashes, sao arquivos baseados em armazenamento por meio de chave valor e estruturas de dados em árvore são as funcionalidades chaves por trás do git.
+Cada nó da árvore, commit e arquivo tem seu próprio SHA-1 de 40 caracteres. Esses elementos são adicionados
+a uma estrutura de árvore e persistidos dentro da pasta .git/objects. Essa pasta é criada automaticamente na inicialização do repositório.
+Um repositório representa um container para um projeto que será versionado. Dentro da máquina, podemos ter vários repositórios. Esses repositórios podem ser comparados com uma pasta.
+Contudo, dentro dela ficam apenas os objetos que são versionados pelo git, de maneira comprimida, por exemplo, as informações de logs, a estrutura de árvore, que define as mudanças
+do repositório representadas por branches, e os diffs, que guardam as mudanças entre commits.
